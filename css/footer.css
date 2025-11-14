@@ -1,3 +1,95 @@
+.footer {
+  width: 940px;
+  height: 204px;
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.footer-nav-box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.footer-content {
+  width: 100vh;
+  display: flex;
+  gap: 35px;
+}
+
+.footer-nav {
+  width: 427px;
+  height: 24px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav p:nth-child(2) {
+  margin-left: 43px;
+}
+
+.footer-logo {
+  width: 111px;
+  height: 24px;
+}
 .footer-caption {
-    
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: rgba(29, 31, 46, 0.3);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: rgba(29, 31, 46, 0.7);
+}
+
+.link-box {
+  width: 147px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-description {
+  width: 259px;
+  height: 44px;
+}
+
+.footer-email {
+  font-family: Karla;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 36px;
+  letter-spacing: 0;
+  color: black;
+}
+
+.footer-mail-box {
+  width: 293px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-description-box {
+  width: 259px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20px;
 }
