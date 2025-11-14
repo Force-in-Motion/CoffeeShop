@@ -1,0 +1,53 @@
+.auth {
+  width: 1380px;
+  height: 327px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(29, 31, 46, 1);
+}
+
+.auth-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+  height: 162px;
+}
+
+.auth-text {
+  color: rgba(255, 255, 255, 1);
+}
+
+.auth-title {
+  width: 253px;
+  height: 50px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.subscribe {
+  width: 489px;
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  width: 350px;
+  height: 54px;
+  background-color: rgba(29, 31, 46, 1);
+  border: 1px solid;
+  border-color: rgba(47, 48, 62, 1);
+  text-align: center;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 1);
+}
+
+.auth-btn {
+  width: 129px;
+  height: 54px;
+  background-color: rgba(255, 255, 255, 1);
+}

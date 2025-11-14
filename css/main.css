@@ -1,4 +1,7 @@
-.main {
-    max-width: 1440px;
-    justify-items: center;
-}
+@import url('document.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('cards.css');
+@import url('banner.css');
+@import url('benefit.css');
+@import url('authorization.css');

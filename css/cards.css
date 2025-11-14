@@ -123,8 +123,6 @@
 .card {
   width: 316px;
   height: 493px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   border: none;
 }
